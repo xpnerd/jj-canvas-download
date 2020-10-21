@@ -1,5 +1,6 @@
 # jj-canvas-download
 Downloads Canvas Video (working for Mozilla Firefox 82.0 (64-bit))
+Also Used uBlock-origin to block some elements (just for yourself;P)
 
 # Specific Use Case
 In this particular example, frames from a video hosted on an external webpage were streamed to a canvas element. The canvas was also edited and the resulting graphic would be rendered to the canvas. When this edited footage was playing sound is heard, but the canvas has no audiotrack. After a long searched I came up with this hack: add node with streamed video and use that audiostream to capture both, rendered image and original sound.
