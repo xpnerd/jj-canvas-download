@@ -12,12 +12,12 @@ Now the external webpage has to be found, or rather the original video stream (s
 
 # Next Steps / Upgrades
 1. Find the URL `srcvid` only using code, some links that might help:
-    1.1. https://www.moesif.com/blog/technical/apirequest/How-We-Captured-AJAX-Requests-with-a-Chrome-Extension/
-    1.2. https://stackoverflow.com/questions/49435341/capture-browser-network-requests-in-javascript
-    1.3. https://stackoverflow.com/questions/30643660/tracking-http-requests-sent-by-the-browser-using-javascript-jquery
-    1.4. https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API
+   * https://www.moesif.com/blog/technical/apirequest/How-We-Captured-AJAX-Requests-with-a-Chrome-Extension/
+   * https://stackoverflow.com/questions/49435341/capture-browser-network-requests-in-javascript
+   * https://stackoverflow.com/questions/30643660/tracking-http-requests-sent-by-the-browser-using-javascript-jquery
+   * https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API
 2. If that is used, we probably also need a refresh/reload. So we want a reloading and be able to use the code directly without too much manual works (So callbacks or other hacks). Links that might help:
-2.1. https://stackoverflow.com/questions/32726338/run-js-after-page-reload/32726743
-2.2. https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript
-2.3. https://stackoverflow.com/questions/43171598/reloading-page-with-injected-javascript-in-browser
-2.4. https://stackoverflow.com/questions/51144555/how-to-keep-the-function-in-chrome-console-and-run-it-after-reloading-the-page
+   * https://stackoverflow.com/questions/32726338/run-js-after-page-reload/32726743
+   * https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript
+   * https://stackoverflow.com/questions/43171598/reloading-page-with-injected-javascript-in-browser
+   * https://stackoverflow.com/questions/51144555/how-to-keep-the-function-in-chrome-console-and-run-it-after-reloading-the-page
